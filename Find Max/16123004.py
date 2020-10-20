@@ -2,7 +2,7 @@ l = [ 2,3,4,5,6,8]
 
 n = len(l)
 curr_max = 0
-for i in n:
+for i in range(n):
 	# TODO Fill Code here
 	if l[i] > curr_max:
 		curr_max = l[i]
